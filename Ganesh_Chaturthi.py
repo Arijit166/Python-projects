@@ -229,5 +229,13 @@ circle(-40,40)
 seth(-45)
 circle(-40,35)
 end_fill()
+
+def draw_blessing():
+    Ganesh(0, -380)
+    pencolor("gold")
+    write("|| गणपति बाप्पा मोरया ||", align="center", 
+          font=("Arial", 16, "bold"))
+draw_blessing()
+    
 hideturtle()
 done()
